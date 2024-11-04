@@ -6,6 +6,19 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  min-width: 320px;
+  width: 100%;
+  margin: auto;
+  height: auto;
+  font-family: "montserrat", serif;
+}
+
+.logo {
+  font-family: "Kavoon", serif;
+}
+
+
 /* Navbar */
 
 .nav-links ul li {
@@ -54,48 +67,8 @@
   display: grid;
 }
 
-.content {
-  /* padding: 16px; */
-  margin-left: auto;
-  outline: none;
-  /* border: 1px solid; */
-  border-radius: 8px;
+.content-items {  
+  @apply tracking-[0.03rem] py-[1rem] px-[0.5rem] cursor-pointer hover:bg-[whitesmoke];
 }
 
-.content li {
-  list-style: none;
-  font-weight: 400;
-  letter-spacing: 0.03rem;
-  padding: 8px;
-  border-radius: 6px;
-  cursor: pointer;
-  /* border:1px solid; */
-  border: 1px solid transparent;
-}
-
-.content li:hover {
-  background-color: rgba(30, 41, 59, 0.8);
-  border: 1px solid rgba(241,245,249,0.1);
-}
-
-.content .categories-drop{
-  border: 1px solid rgba(241,245,249,0.1);
-}
-
-.content .categories-drop details[open] summary::after{
-  transform: rotate(90deg);
-} 
-
-.categories-drop details div{
-  background-color:rgba(15,12,42,0.5);
-}
-
-.mobile-dropdown{
-  padding:8px;
-  border-radius:3px;
-}
-
-.mobile-dropdown:hover{
-  background-color:rgba(15,12,42,1);
-}
 /* Navbar styling  ends here*/
