@@ -42,10 +42,11 @@ export default function Navbar() {
           {isOpen ? (
             <section
               id="menu-content"
-              className="w-full bg-red-300 absolute top-[3.75rem] left-0 z-10"
+              className="w-full absolute top-[3.75rem] left-0 z-10 bg-white"
               onClick={toggleMenu}
+              style={{height:'calc(100dvh - 3.75rem)'}}
             >
-              <div className="content min-h-[80dvh] divide-y p-2 divide-neutral-300 text-black flex flex-col container mx-auto bg-white border border-neutral-100 font-medium">
+              <div className="content divide-y p-2 divide-neutral-300 text-black flex flex-col container mx-auto bg-white rounded-md border border-neutral-100 font-medium">
                 <NavLink
                   to="/home"
                   onClick={toggleMenu}
