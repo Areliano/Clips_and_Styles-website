@@ -10,7 +10,7 @@ export default function Home() {
       <main className="main-home container mx-auto p-4 ">
         <p className="">We are launching soon . Stay tuned and be there 🚀</p>
 
-        <section className="home-image-wrapper flex items-center justify-between gap-4 my-12">
+        <section className="home-image-wrapper grid grid-cols-3 place-items-center gap-4 my-12">
           <img
             src={heroImage1}
             alt="clips&styles-waitlist-hero-image-1"
@@ -24,7 +24,7 @@ export default function Home() {
           <img
             src={heroImage3}
             alt="clips&styles-waitlist-hero-image-1"
-            className="min-w-24 min-h-32 rounded-2xl bg-neutral-400 object-cover object-center"
+            className="min-w-24 min-h-32  rounded-2xl bg-neutral-400 object-cover object-center"
           />
         </section>
 
@@ -44,13 +44,13 @@ export default function Home() {
         <h2 className="text-xl font-bold text-center text-pretty">
           Join the waitlist
         </h2>
-        <h4 className="font-semibold text-neutral-700 text-center mt-2 text-pretty">
+        <h4 className="font-semibold text-neutral-500 text-center mt-2 text-pretty">
           Get early access , news , exclusive offers and updates .
         </h4>
 
-        <form action="" className="my-8 space-y-8">
+        <form action="" className="my-8 space-y-6">
           <div className="input-sections space-y-4">
-            <fieldset className="border border-neutral-400 flex items-center gap-2 h-12 px-2 rounded-md">
+            <fieldset className="border border-neutral-300 flex items-center gap-2 h-12 px-2 rounded-md">
               <img
                 src={iperson}
                 alt="waitlist-user-icon"
@@ -59,12 +59,12 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="Full Name"
-                className="w-full h-full outline-none focus:outline-none border-none rounded-md placeholder:text-black"
-                autoFocus
+                className="w-full h-full outline-none focus:outline-none border-none rounded-md"
+                autoFocus="true"
               />
             </fieldset>
 
-            <fieldset className="border border-neutral-400 flex items-center gap-2 h-12 px-2 rounded-md mb-8">
+            <fieldset className="border border-neutral-300 flex items-center gap-2 h-12 px-2 rounded-md mb-8">
               <img
                 src={imail}
                 alt="waitlist-user-email"
@@ -74,14 +74,16 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="Email Address"
-                className="w-full h-full outline-none focus:outline-none border-none rounded-md placeholder:text-black"
+                className="w-full h-full outline-none focus:outline-none border-none rounded-md "
               />
             </fieldset>
           </div>
+          
+          <p className="">Registered as :</p>
 
           <section className="flex gap-2 md:gap-8 flex-wrap radio-buttons">
             <label
-              htmlFor=""
+              htmlFor="user-owner"
               className="flex items-center gap-2 tracking-wide font-medium"
             >
               <input
@@ -89,11 +91,12 @@ export default function Home() {
                 className="accent-[#23461A] size-5"
                 name="user-type"
                 value="Beauty shop owner"
+                id="user-owner"
               />
               Beauty Shop Owner
             </label>
             <label
-              htmlFor=""
+              htmlFor="user-customer"
               className="flex items-center gap-2 tracking-wide font-medium"
             >
               <input
@@ -101,13 +104,14 @@ export default function Home() {
                 className="accent-[#23461A] size-5"
                 name="user-type"
                 value="Beauty Customer"
+                id="user-customer"
               />
               Beauty Customer
             </label>
           </section>
 
           <button
-            className="bg-[#23461A] text-white h-12 rounded-md w-full font-semibold tracking-wide "
+            className="bg-[#23461A] text-white h-12 rounded-md w-full font-semibold tracking-wide hover:bg-[#23461A]/90 active:translate-y-[2px] "
             type="button"
           >
             Submit
