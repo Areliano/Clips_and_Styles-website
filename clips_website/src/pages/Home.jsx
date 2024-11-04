@@ -60,7 +60,7 @@ export default function Home() {
                 type="text"
                 placeholder="Full Name"
                 className="w-full h-full outline-none focus:outline-none border-none rounded-md"
-                autoFocus="true"
+                autoFocus
               />
             </fieldset>
 
@@ -81,7 +81,7 @@ export default function Home() {
           
           <p className="">Registered as :</p>
 
-          <section className="flex gap-2 md:gap-8 flex-wrap radio-buttons">
+          <section className="flex gap-3 md:gap-8 flex-wrap radio-buttons">
             <label
               htmlFor="user-owner"
               className="flex items-center gap-2 tracking-wide font-medium"
