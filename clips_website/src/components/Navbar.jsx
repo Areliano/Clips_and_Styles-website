@@ -9,8 +9,8 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="navigation-wrapper w-[100%]  sticky top-0 z-10 backdrop-blur-lg bg-white border-b border-neutral-100">
-      <div className="p-3 h-[60px] flex items-center justify-between w-full container mx-auto">
+    <nav className="navigation-wrapper w-[100%]  sticky top-0 z-10 backdrop-blur-lg bg-white border-b border-neutral-200">
+      <div className="p-4 h-[60px] flex items-center justify-between w-full container mx-auto">
         <div className="logo">
           <NavLink to="/home" className="text-lg tracking-wider">
             Clips & Styles
@@ -42,10 +42,10 @@ export default function Navbar() {
           {isOpen ? (
             <section
               id="menu-content"
-              className="w-full min-h-[95dvh] absolute top-[3.75rem] left-0 p-2 bg-white z-10"
+              className="w-full bg-red-300 absolute top-[3.75rem] left-0 z-10"
               onClick={toggleMenu}
             >
-              <div className="content divide-y divide-neutral-100 text-black flex flex-col container mx-auto bg-white border border-neutral-100">
+              <div className="content min-h-[80dvh] divide-y p-2 divide-neutral-300 text-black flex flex-col container mx-auto bg-white border border-neutral-100 font-medium">
                 <NavLink
                   to="/home"
                   onClick={toggleMenu}
