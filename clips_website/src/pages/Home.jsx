@@ -14,17 +14,17 @@ export default function Home() {
           <img
             src={heroImage1}
             alt="clips&styles-waitlist-hero-image-1"
-            className="min-w-24 min-h-32 rounded-2xl bg-neutral-400 object-cover object-center"
+            className="min-w-20 min-h-32 rounded-2xl bg-neutral-300 object-cover object-center"
           />
           <img
             src={heroImage2}
             alt="clips&styles-waitlist-hero-image-1"
-            className="min-w-28 min-h-44 rounded-2xl bg-neutral-400 object-cover object-center"
+            className="min-w-24 min-h-44 rounded-2xl bg-neutral-300 object-cover object-center"
           />
           <img
             src={heroImage3}
             alt="clips&styles-waitlist-hero-image-1"
-            className="min-w-24 min-h-32  rounded-2xl bg-neutral-400 object-cover object-center"
+            className="min-w-20 min-h-32  rounded-2xl bg-neutral-300 object-cover object-center"
           />
         </section>
 
@@ -37,8 +37,9 @@ export default function Home() {
           elegance meets business growth. Customer enjoy the freedom to book
           premium beauty services on their own schedule, while beauty
           professionals unlock new opportunities to showcase their talents,
-          manage appointments and grow their business. It&apos;s a community where
-          you can redefine beauty experience and business success on your terms.
+          manage appointments and grow their business. It&apos;s a community
+          where you can redefine beauty experience and business success on your
+          terms.
         </p>
 
         <h2 className="text-xl font-bold text-center text-pretty">
@@ -54,31 +55,29 @@ export default function Home() {
               <img
                 src={iperson}
                 alt="waitlist-user-icon"
-                className="User's-Full-Name"
+                
               />
               <input
                 type="text"
                 placeholder="Full Name"
+                name="User's-Full-Name"
                 className="w-full h-full outline-none focus:outline-none border-none rounded-md"
-                autoFocus
+                
               />
             </fieldset>
 
             <fieldset className="border border-neutral-300 flex items-center gap-2 h-12 px-2 rounded-md mb-8">
-              <img
-                src={imail}
-                alt="waitlist-user-email"
-                className=""
-                name="User-Email-Address"
-              />
+              <img src={imail} alt="waitlist-user-email" className="" />
               <input
                 type="text"
                 placeholder="Email Address"
+                id="email-address"
+                name="User-Email-Address"
                 className="w-full h-full outline-none focus:outline-none border-none rounded-md "
               />
             </fieldset>
           </div>
-          
+
           <p className="">Registered as :</p>
 
           <section className="flex gap-3 md:gap-8 flex-wrap radio-buttons">
