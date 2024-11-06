@@ -10,7 +10,7 @@ export default function Home() {
       <main className="main-home container mx-auto p-4 ">
         <p className="">We are launching soon . Stay tuned and be there 🚀</p>
 
-        <section className="home-image-wrapper grid grid-cols-3 place-items-center gap-4 my-12">
+        <section className="home-image-wrapper grid grid-cols-3 place-items-center gap-2 md:gap-4 my-12">
           <img
             src={heroImage1}
             alt="clips&styles-waitlist-hero-image-1"

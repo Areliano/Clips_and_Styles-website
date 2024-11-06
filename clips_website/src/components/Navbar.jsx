@@ -6,7 +6,6 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   function toggleMenu() {
     setIsOpen(!isOpen);
-    console.log(isOpen)
   }
   function closeMenu(){
     setIsOpen();
