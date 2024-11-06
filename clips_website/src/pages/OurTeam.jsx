@@ -1,4 +1,4 @@
-import Team from "./Team.jsx";
+import Team from "../components/Team.jsx";
 
 
 export default function OurTeam() {
