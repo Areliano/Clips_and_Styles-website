@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className="navigation-wrapper w-[100%]  sticky top-0 z-10 backdrop-blur-lg bg-white border-b border-neutral-200">
       <div className="p-4 h-[60px] flex items-center justify-between w-full container mx-auto">
         <div className="logo">
-          <NavLink to="/home" className="text-lg tracking-wider">
+          <NavLink to="/home" className="text-lg tracking-wider" onClick={toggleMenu}>
             Clips & Styles
           </NavLink>
         </div>
