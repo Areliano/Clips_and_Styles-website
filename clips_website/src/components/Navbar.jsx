@@ -6,13 +6,17 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   function toggleMenu() {
     setIsOpen(!isOpen);
+    console.log(isOpen)
+  }
+  function closeMenu(){
+    setIsOpen();
   }
 
   return (
     <nav className="navigation-wrapper w-[100%]  sticky top-0 z-10 backdrop-blur-lg bg-white border-b border-neutral-200">
       <div className="p-4 h-[60px] flex items-center justify-between w-full container mx-auto">
         <div className="logo">
-          <NavLink to="/home" className="text-lg tracking-wider" onClick={toggleMenu}>
+          <NavLink to="/home" className="text-lg tracking-wider" onClick={closeMenu}>
             Clips & Styles
           </NavLink>
         </div>
