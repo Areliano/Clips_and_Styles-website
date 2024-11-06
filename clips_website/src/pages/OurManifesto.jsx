@@ -9,9 +9,7 @@ export default function OurManifesto() {
       console.table(count+1);
     }else {
       return ;
-    }
-          
-    }
+    }}
     
   return (
   
