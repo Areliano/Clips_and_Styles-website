@@ -7,25 +7,48 @@ import Mark from "/Mark.jpeg";
 const teamMembers = [
   {
     id: 1,
-    src: Breta, 
+    src: Breta,
     name: "Breta Odhiambo",
+    description: "Experienced hairstylist with a passion for modern cuts.",
+    socialLinks: {
+      instagram: "https://www.instagram.com/unclebreta/",
+      linkedin: "#",
+      github: "#",
+    },
   },
   {
     id: 2,
     src: Brian,
     name: "Brian Kimathi",
+    description: "Skilled barber known for precision and style.",
+    socialLinks: {
+      instagram: "https://www.instagram.com/getlikekimathi_/",
+      linkedin: "https://www.linkedin.com/in/brian-muriiki-117006230/",
+      github: "https://github.com/Kimathi19",
+    },
   },
   {
     id: 3,
     src: Fatma,
     name: "Fatma Wanjiku",
+    description: "Expert esthetician focused on skincare and wellness.",
+    socialLinks: {
+      instagram: "https://www.instagram.com/_.african_wanjiku/",
+      linkedin: "https://www.linkedin.com/in/fatma-hussein-7a584421a/",
+      github: "https://github.com/Areliano",
+    },
   },
   {
     id: 4,
     src: Mark,
     name: "Mark Mogire",
+    description: "Massage therapist specializing in relaxation techniques.",
+    socialLinks: {
+      instagram: "https://www.instagram.com/thee_mmo/",
+      linkedin: "https://www.linkedin.com/in/mark-mogire-416501249/",
+      github: "https://github.com/MOGIRE11",
+    },
   },
-  
 ];
 
 const Team = () => {
@@ -34,14 +57,40 @@ const Team = () => {
       {teamMembers.map((member) => (
         <div
           key={member.id}
-          className="card p-4 w-[200px] space-y-2 rounded-lg shadow-md"
+          className="card p-4 w-[250px] space-y-2 rounded-lg shadow-md text-center"
         >
           <img
             src={member.src}
             alt={`${member.name}'s photo`}
-            className="w-[200px] h-[200px] object-cover rounded-md"
+            className="w-[200px] h-[200px] object-cover rounded-md mx-auto"
           />
-          <h1 className="name font-bold text-center">{member.name}</h1>
+          <h1 className="name font-bold text-lg">{member.name}</h1>
+          <p className="description text-gray-600 text-sm">
+            {member.description}
+          </p>
+          <div className="social-links flex justify-center space-x-4 mt-2">
+            <a
+              href={member.socialLinks.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-instagram w-6 h-6"></i>
+            </a>
+            <a
+              href={member.socialLinks.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-linkedin w-6 h-6"></i>
+            </a>
+            <a
+              href={member.socialLinks.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa-brands fa-github w-6 h-6"></i>
+            </a>
+          </div>
         </div>
       ))}
     </div>
