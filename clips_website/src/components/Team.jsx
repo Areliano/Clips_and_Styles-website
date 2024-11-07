@@ -53,7 +53,7 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <div className="team-wrapper flex flex-wrap gap-4">
+    <div className="team-wrapper grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center mx-auto p-4">
       {teamMembers.map((member) => (
         <div
           key={member.id}

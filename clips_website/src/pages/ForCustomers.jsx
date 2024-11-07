@@ -2,7 +2,7 @@ export default function ForCustomers() {
   return (
     <div className="about-wrapper">
       <div className="about-main container mx-auto p-4">
-        Clips & styles for customers
+        <h1 className="font-bold text-md tracking-wider">Clips & styles for customers!</h1>
       </div>
       <div className="accordion flex flex-col justify-center items-center">
         <h1 className="text-3xl font-bold mb-6">Frequently Asked Questions</h1>
