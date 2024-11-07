@@ -9,7 +9,8 @@ const teamMembers = [
     id: 1,
     src: Breta,
     name: "Breta Odhiambo",
-    description: "Experienced hairstylist with a passion for modern cuts.",
+    description:
+      "A talented UI/UX designer with a flair for creating intuitive and visually captivating user interfaces.",
     socialLinks: {
       instagram: "https://www.instagram.com/unclebreta/",
       linkedin: "#",
@@ -20,7 +21,8 @@ const teamMembers = [
     id: 2,
     src: Brian,
     name: "Brian Kimathi",
-    description: "Skilled barber known for precision and style.",
+    description:
+      " A versatile full-stack developer with an interest in leveraging data and analytics within development.",
     socialLinks: {
       instagram: "https://www.instagram.com/getlikekimathi_/",
       linkedin: "https://www.linkedin.com/in/brian-muriiki-117006230/",
@@ -31,7 +33,8 @@ const teamMembers = [
     id: 3,
     src: Fatma,
     name: "Fatma Wanjiku",
-    description: "Expert esthetician focused on skincare and wellness.",
+    description:
+      "A full-stack developer passionate about integrating secure coding practices with a focus on cyber-security",
     socialLinks: {
       instagram: "https://www.instagram.com/_.african_wanjiku/",
       linkedin: "https://www.linkedin.com/in/fatma-hussein-7a584421a/",
@@ -42,7 +45,8 @@ const teamMembers = [
     id: 4,
     src: Mark,
     name: "Mark Mogire",
-    description: "Massage therapist specializing in relaxation techniques.",
+    description:
+      "A dedicated full-stack developer with a strong grasp of both frontend and backend technologies.",
     socialLinks: {
       instagram: "https://www.instagram.com/thee_mmo/",
       linkedin: "https://www.linkedin.com/in/mark-mogire-416501249/",

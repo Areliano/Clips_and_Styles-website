@@ -12,13 +12,13 @@ export default function About() {
           <div className="flex flex-col md:flex-row md:space-x-8 items-center">
             <div className="md:w-1/2">
               <h3 className="text-2xl font-semibold mb-3">
-                Clips&Styles isn’t just a booking app –
+                Clips&Styles isn't just a booking app 
               </h3>
               <p className="text-lg mb-4">
-                It’s a lifestyle upgrade. It’s about making beauty services as effortless as they should be.
+                It's a lifestyle upgrade. It's about making beauty services as effortless as they should be.
               </p>
               <p className="text-lg">
-                Clips&Styles is about convenience, choice, and quality. It’s not just a platform to schedule services; it’s your personal gateway to looking and feeling your best without stress.
+                Clips&Styles is about convenience, choice, and quality. It's not just a platform to schedule services; it's your personal gateway to looking and feeling your best without stress.
               </p>
             </div>
             <div className="md:w-1/2 flex justify-center">
@@ -33,7 +33,7 @@ export default function About() {
             </div>
             <div className="md:w-1/2">
               <p className="text-lg mb-4">
-                But it’s not just about making life easier for customers. Clips & Styles is also here for the barbers, stylists, and beauty experts who bring their skills and creativity to the forefront every day. We’re more than a tool; we’re a partner that helps them showcase their talents, grow their business, and connect with clients who truly appreciate their craft.
+                But it's not just about making life easier for customers. Clips & Styles is also here for the barbers, stylists, and beauty experts who bring their skills and creativity to the forefront every day. We're more than a tool; we're a partner that helps them showcase their talents, grow their business, and connect with clients who truly appreciate their craft.
               </p>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function About() {
           {/* Third Section */}
           <div className="text-lg">
             <p>
-              At the heart of Clips & Styles is you—the busy professional, the trendsetter, the person who wants to look and feel great but doesn’t have hours to spare. We’re here to make sure that whenever you’re ready for a change, we’re just a few clicks away.
+              At the heart of Clips & Styles is you—the busy professional, the trendsetter, the person who wants to look and feel great but doesn't have hours to spare. We're here to make sure that whenever you're ready for a change, we're just a few clicks away.
             </p>
           </div>
         </div>
