@@ -2,12 +2,18 @@ export default function ForCustomers() {
   return (
     <div className="about-wrapper">
       <div className="about-main container mx-auto p-4">
-        <h1 className="font-bold text-md tracking-wider">Clips & styles for customers!</h1>
+        <h1 className="font-bold text-md tracking-wider">
+          Clips & styles for customers!
+        </h1>
       </div>
       <div className="accordion flex flex-col justify-center items-center">
         <h1 className="text-3xl font-bold mb-6">Frequently Asked Questions</h1>
         <div className="items w-[75%]">
-          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]">
+          <details
+            className="accordion-item px-8 py-3 bg-[#f2f4f7]"
+            name="faq"
+            open
+          >
             <summary className="text-[20px] font-semibold font-sans flex justify-between items-center">
               <span>How do I book a service on the app</span>
             </summary>
@@ -19,7 +25,7 @@ export default function ForCustomers() {
               reminder before your appointment.
             </p>
           </details>
-          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]">
+          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]" name="faq">
             <summary className="text-[20px] font-semibold font-sans flex justify-between items-center">
               <span>Do I need to make a payment in advance</span>
             </summary>
@@ -30,7 +36,7 @@ export default function ForCustomers() {
               barbershop, or spa after your service.
             </p>
           </details>
-          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]">
+          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]" name="faq">
             <summary className="text-[20px] font-semibold font-sans flex justify-between items-center">
               <span> How do I know my booking is confirmed</span>
             </summary>
@@ -41,7 +47,7 @@ export default function ForCustomers() {
               Bookings" section.
             </p>
           </details>
-          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]">
+          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]" name="faq">
             <summary className="text-[20px] font-semibold font-sans flex justify-between items-center">
               <span>What services are available in the app?</span>
             </summary>
@@ -52,7 +58,7 @@ export default function ForCustomers() {
               available salons, spas, or barbershops.
             </p>
           </details>
-          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]">
+          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]" name="faq">
             <summary className="text-[20px] font-semibold font-sans flex justify-between items-center">
               <span>Can I choose a specific stylist or therapist?</span>
             </summary>
@@ -63,7 +69,7 @@ export default function ForCustomers() {
               your selected location.
             </p>
           </details>
-          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]">
+          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]" name="faq">
             <summary className="text-[20px] font-semibold font-sans flex justify-between items-center">
               <span>Is the app available in my area?</span>
             </summary>
@@ -74,17 +80,17 @@ export default function ForCustomers() {
               barbershops that accept bookings.
             </p>
           </details>
-          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]">
+          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]" name="faq">
             <summary className="text-[20px] font-semibold font-sans flex justify-between items-center">
               <span>Can I leave a review for a service provider?</span>
             </summary>
             <p className="text-[20px] font-medium font-sans text-neutral-700">
-              Absolutely! After your appointment, you’ll have the option to
-              leave a review on the provider’s profile to share your experience
+              Absolutely! After your appointment, you'll have the option to
+              leave a review on the provider's profile to share your experience
               with others.
             </p>
           </details>
-          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]">
+          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]" name="faq">
             <summary className="text-[20px] font-semibold font-sans flex justify-between items-center">
               <span>Are there any loyalty or referral programs?</span>
             </summary>
@@ -94,7 +100,7 @@ export default function ForCustomers() {
               you both receive a discount on your next booking.
             </p>
           </details>
-          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]">
+          <details className="accordion-item px-8 py-3 bg-[#f2f4f7]" name="faq">
             <summary className="text-[20px] font-semibold font-sans flex justify-between items-center">
               <span>Is my personal information secure?</span>
             </summary>
