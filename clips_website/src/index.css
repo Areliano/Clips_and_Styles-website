@@ -23,3 +23,28 @@ body {
 }
 /* Navbar styling  ends here*/
 
+details{
+    border: 1px solid green;
+    /* padding: 1rem; */
+    /* padding-left: 50px; */
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+summary{
+    
+    list-style: none;
+}
+
+summary::after{
+    content:"+";
+    font-size: 34px;
+    margin-left: auto; 
+    transition: content 0.3s;
+}
+details[open] summary::after{
+    content:"\00D7";
+}
+details[open] summary .icon {
+  content: "\00D7"; 
+}
+
