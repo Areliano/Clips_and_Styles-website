@@ -22,14 +22,14 @@ export default function About() {
               </p>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <img src="/path/to/image1.jpg" alt="Person relaxing" className="w-72 h-72 rounded-lg shadow-lg object-cover" />
+              <img src="image1" alt="Person relaxing" className="w-72 h-72 rounded-lg shadow-lg object-cover" />
             </div>
           </div>
 
           {/* Second Section */}
           <div className="flex flex-col md:flex-row md:space-x-8 items-center">
             <div className="md:w-1/2 flex justify-center order-last md:order-none">
-              <img src="/path/to/image2.jpg" alt="Salon interior" className="w-72 h-72 rounded-lg shadow-lg object-cover" />
+              <img src="image" alt="Salon interior" className="w-72 h-72 rounded-lg shadow-lg object-cover" />
             </div>
             <div className="md:w-1/2">
               <p className="text-lg mb-4">
