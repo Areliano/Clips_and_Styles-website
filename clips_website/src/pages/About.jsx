@@ -1,3 +1,8 @@
+import aboutphoto1 from "/about1.png";
+import aboutphoto2 from "/about2.png";
+
+
+
 
 export default function About() {
   return (
@@ -22,14 +27,14 @@ export default function About() {
               </p>
             </div>
             <div className="md:w-1/2 flex justify-center">
-              <img src="image1" alt="Person relaxing" className="w-72 h-72 rounded-lg shadow-lg object-cover" />
+              <img src={aboutphoto1} alt="Person relaxing" className="w-72 h-72 rounded-lg shadow-lg object-cover" />
             </div>
           </div>
 
           {/* Second Section */}
           <div className="flex flex-col md:flex-row md:space-x-8 items-center">
             <div className="md:w-1/2 flex justify-center order-last md:order-none">
-              <img src="image" alt="Salon interior" className="w-72 h-72 rounded-lg shadow-lg object-cover" />
+              <img src={aboutphoto2} alt="Salon interior" className="w-72 h-72 rounded-lg shadow-lg object-cover" />
             </div>
             <div className="md:w-1/2">
               <p className="text-lg mb-4">
