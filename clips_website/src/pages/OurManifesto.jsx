@@ -1,28 +1,31 @@
-import { useState } from "react";
+import photo1 from "/Founder.png"
+
 
 export default function OurManifesto() {
-  
-    const [count, setCount] = useState(0);
-    function addCount(){
-    if (count < 10){
-      setCount(count+1)
-      console.table(count+1);
-    }else {
-      return ;
-    }}
-    
   return (
-  
-    <div className="about-wrapper">
-      <div className="about-main container mx-auto p-4">
-        {/* Our Manifesto */}
-        <p className="text-center uppercase underline font-semibold underline-offset-4">POTUS ELECTION</p>
-        
-        <button className="border border-neutral-200 rounded-md py-2 px-6 block mx-auto my-8 active:bg-neutral-100 active:translate-y-[2px] hover:bg-neutral-100" onClick={addCount}>Vote</button>
-        
-        <p className="font-bold text-8xl text-center">{count}</p>
-        {count === 10 && <p className="text-sm text-center border border-yellow-300 bg-yellow-100/70 p-2 rounded-md">The maximum vote casts is 10</p>}
+    <div className="g-white text-gray-800 px-8 py-12 md:px-20 lg:px-40">
+      <div className="max-w-screen-lg mx-auto w-full">
+                   {/*Title*/} 
+       <h2 className="text-4xl font-bold text-center mb-10">Our Manifesto</h2>
+     </div>
+
+     <div className="w-full h-screen flex items-center justify-center bg-gray-100">
+      <div className="w-full h-full max-w-screen-lg max-h-screen bg-white shadow-lg rounded-lg p-6 flex flex-col justify-center">
+        {/* Grid layout for the inner cards */}
+        <div className="grid grid-cols-3 grid-rows-2 gap-4 h-full">
+          {[...Array(6)].map((_, index) => (
+            <div
+              key={index}
+              className="bg-gray-100 border border-gray-300 rounded-lg flex items-center justify-center text-gray-700 font-semibold h-full"
+            >
+              Small Card {index + 1}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
+
+    </div>
+
   );
-}
+};
