@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 body {
-  font-family: "montserrat",system-ui;
+  font-family: "montserrat", system-ui;  
 }
 
 .logo {
@@ -15,36 +15,34 @@ body {
 }
 
 /* Navbar */
-.content{
- box-shadow: 0 2px 80px aliceblue;  
+.content {
+  box-shadow: 0 2px 80px aliceblue;
 }
-.content-items {  
+.content-items {
   @apply tracking-[0.03rem] py-[1rem] px-[0.5rem] cursor-pointer hover:bg-[whitesmoke];
 }
 /* Navbar styling  ends here*/
 
-details{
-    border: 1px solid green;
-    /* padding: 1rem; */
-    /* padding-left: 50px; */
-    margin-bottom: 8px;
-    cursor: pointer;
+details {
+  border: 1px solid rgba(213, 213, 213, 0.7);
+  margin-bottom: 8px;
+  cursor: pointer;
 }
-summary{
-    
-    list-style: none;
+summary {
+  list-style: none;
 }
 
-summary::after{
-    content:"+";
-    font-size: 34px;
-    margin-left: auto; 
-    transition: content 0.3s;
+summary::after {
+  content: "+";
+  font-size: 34px;
+  margin-left: auto;
+  transition: content 0.3s;
 }
-details[open] summary::after{
-    content:"\00D7";
+
+details[open] summary::after {
+  content: "\00D7";
 }
+
 details[open] summary .icon {
-  content: "\00D7"; 
+  content: "\00D7";
 }
-
