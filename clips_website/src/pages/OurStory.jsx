@@ -4,10 +4,10 @@ export default function OurStory() {
       <div className="max-w-screen-lg mx-auto w-full">
         
         {/*Title*/}
-        <h2 className="text-4xl font-bold text-center mb-10">Our Story</h2>
+        <h2 className="text-4xl font-bold text-center mb-10 text-pretty">Our Story</h2>
 
         {/* Section Content */}
-        <div className="space-y-8 text-lg">
+        <div className="space-y-10 text-pretty font-serif">
           
           {/* First Paragraph */}
           <p>

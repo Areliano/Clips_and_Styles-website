@@ -9,10 +9,10 @@ export default function About() {
     <div className="bg-white text-gray-800 px-8 py-12 md:px-20 lg:px-40">
       <div className="max-w-screen-lg mx-auto w-full">
         {/* Title */}
-        <h2 className="text-4xl font-bold text-center mb-10">About Us</h2>
+        <h2 className="text-4xl font-bold text-center mb-10 text-pretty">About Us</h2>
 
         {/* Section Content */}
-        <div className="space-y-12">
+        <div className="space-y-12 font-serif text-pretty">
           {/* First Section */}
           <div className="flex flex-col md:flex-row md:space-x-8 items-center">
             <div className="md:w-1/2">
