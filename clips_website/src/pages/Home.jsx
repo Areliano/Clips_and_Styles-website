@@ -4,7 +4,7 @@ import Waitlist from "../components/Waitlist";
 export default function Home() {    
   return (
     <div className="home-wrapper">
-      <main className="main-home container mx-auto p-4 ">
+      <main className="main-home container mx-auto p-4 md:w-[80%] lg:w-[60%] 2xl:w-1/2">
         <p className="">We are launching soon . Stay tuned and be there 🚀</p>
 
         <Carousel />
