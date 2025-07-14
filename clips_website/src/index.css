@@ -30,8 +30,7 @@ body,p,h1,h2,h3,h4,h5,h6,details,summary {
 
 details {
   border: 1px solid rgba(213, 213, 213, 0.7);
-  margin-bottom: 8px;
-  font-family: monospace;  
+  margin-bottom: 8px;  
   cursor: pointer;
   overflow:hidden;
   transition:all 0.3s ease-in-out;
@@ -39,7 +38,12 @@ details {
 
 summary {
   list-style: none;
+  font-family: "montserrat", system-ui !important;  
   /* background: #000; */
+}
+
+details p{
+  font-family: "montserrat", system-ui !important;
 }
 
 summary::after {
@@ -63,6 +67,7 @@ details[open] summary::after {
 details[open] summary .icon {
   content: "\00D7";
 }
+
 details::details-content{
   block-size:0;
   transition: all 0.4s ease-out;

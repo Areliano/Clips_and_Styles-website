@@ -16,8 +16,8 @@ export default function OurManifesto() {
         </h1>
       </div>
       <div className="w-full h-screen flex items-center justify-center bg-white mt-10">
-        <div className="w-full h-full max-w-screen-lg max-h-screen bg-white rounded-lg p-6 flex flex-col justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-4 h-full">
+        <div className="w-full h-full max-w-screen-lg bg-white rounded-lg p-6 flex flex-col justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4 h-full">
             <div className="bg-[#1b1b1b] text-white border border-gray-300 rounded-lg flex flex-col items-start p-6 h-full">
               <div className="flex items-center mb-4">
                 {/* Icon*/}
