@@ -1,13 +1,13 @@
 export default function OurStory() {
   return (
-    <div className="text-gray-800 px-8 py-12 md:px-20 lg:px-40">
+    <div className="px-8 py-12 md:px-20 lg:px-40">
       <div className="max-w-screen-lg mx-auto w-full">
         
         {/*Title*/}
-        <h2 className="text-4xl font-bold text-center mb-10 text-pretty">Our Story</h2>
+        <h1 className="text-3xl font-bold text-center mb-10 text-pretty">Our Story</h1>
 
         {/* Section Content */}
-        <div className="space-y-10 text-pretty font-serif">
+        <div className="space-y-4 text-pretty font-serif">
           
           {/* First Paragraph */}
           <p>
@@ -49,7 +49,7 @@ export default function OurStory() {
           {/* Fourth Paragraph */}
 
           <p>
-            Our story is your story- one of seeking better beauty experiences
+            Our story is your story - one of seeking better beauty experiences
             and finding a solution that works for you.
           </p>
         </div>

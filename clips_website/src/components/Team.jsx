@@ -1,4 +1,3 @@
-import React from "react";
 import Breta from "/Breta.png";
 import Brian from "/Brian.jpeg";
 import Fatma from "/Fatma.png";
@@ -49,7 +48,7 @@ const teamMembers = [
       "A dedicated full-stack developer with a strong grasp of both frontend and backend technologies.",
     socialLinks: {
       instagram: "https://www.instagram.com/thee_mmo/",
-      linkedin: "https://www.linkedin.com/in/mark-mogire-416501249/",
+      linkedin: "https://www.linkedin.com/in/mark-mogire/",
       github: "https://github.com/MOGIRE11",
     },
   },
@@ -61,39 +60,42 @@ const Team = () => {
       {teamMembers.map((member) => (
         <div
           key={member.id}
-          className="card p-4 w-[250px] space-y-2 rounded-lg shadow-md text-center"
+          className="card w-[250px] rounded-t-lg shadow-md overflow-hidden"
         >
           <img
             src={member.src}
             alt={`${member.name}'s photo`}
-            className="w-[200px] h-[200px] object-cover rounded-md mx-auto"
+            className="w-full h-[200px] object-cover mx-auto object-center"
           />
-          <h1 className="name font-bold text-lg">{member.name}</h1>
-          <p className="description text-gray-600 text-sm">
-            {member.description}
-          </p>
-          <div className="social-links flex justify-center space-x-4 mt-2">
-            <a
-              href={member.socialLinks.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-instagram w-6 h-6"></i>
-            </a>
-            <a
-              href={member.socialLinks.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-linkedin w-6 h-6"></i>
-            </a>
-            <a
-              href={member.socialLinks.github}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-github w-6 h-6"></i>
-            </a>
+
+          <div className="p-4">
+            <h1 className="name font-semibold text-lg">{member.name}</h1>
+            <p className="description text-sm mt-2">
+              {member.description}
+            </p>
+            <div className="social-links flex gap-4 mt-4">
+              <a
+                href={member.socialLinks.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-instagram w-6 h-6"></i>
+              </a>
+              <a
+                href={member.socialLinks.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-linkedin w-6 h-6"></i>
+              </a>
+              <a
+                href={member.socialLinks.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-github w-6 h-6"></i>
+              </a>
+            </div>
           </div>
         </div>
       ))}

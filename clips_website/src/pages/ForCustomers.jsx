@@ -1,9 +1,9 @@
 export default function ForCustomers() {
   return (
     <div className="about-wrapper">
-      <div className="about-main container mx-auto p-4">
-        <h1 className="font-bold text-md tracking-wider">
-          Clips & styles for customers!
+      <div className="about-main container mx-auto p-4 flex justify-center items-center">
+        <h1 className="font-semibold text-neutral-800 tracking-wider text-xs text-center bg-neutral-200 border-l-4 border-l-orange-500 rounded-r p-2 inline-block">
+          Clips & Styles for Customers !
         </h1>
       </div>
       <div className="accordion flex flex-col justify-center items-center ">
@@ -25,6 +25,8 @@ export default function ForCustomers() {
               reminder before your appointment.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -39,6 +41,8 @@ export default function ForCustomers() {
               barbershop, or spa after your service.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -53,6 +57,8 @@ export default function ForCustomers() {
               Bookings" section.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -67,6 +73,8 @@ export default function ForCustomers() {
               available salons, spas, or barbershops.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -81,6 +89,8 @@ export default function ForCustomers() {
               your selected location.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -95,6 +105,8 @@ export default function ForCustomers() {
               barbershops that accept bookings.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -108,6 +120,8 @@ export default function ForCustomers() {
               with others.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -121,6 +135,8 @@ export default function ForCustomers() {
               you both receive a discount on your next booking.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"

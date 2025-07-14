@@ -1,15 +1,16 @@
 export default function ForShopOwners() {
   return (
     <div className="about-wrapper">
-      <div className="about-main container mx-auto p-4">
-        <h1 className="font-bold text-md tracking-wider">
-          Clips & styles for shop owners!
+      <div className="about-main container mx-auto p-4 flex justify-center items-center">
+        <h1 className="font-semibold text-neutral-800 tracking-wider text-xs text-center bg-neutral-200 border-l-4 border-l-orange-500 rounded-r p-2 inline-block">
+          Clips & Styles for Beauty Shop Owners !
         </h1>
       </div>
       <div className="accordion flex flex-col justify-center items-center">
         <h1 className="text-2xl md:text-3xl px-4 md:px-0 font-bold mb-6">
           Frequently Asked Questions
         </h1>
+        
         <div className="items w-[75%]">
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
@@ -26,6 +27,8 @@ export default function ForShopOwners() {
               visibility by attracting new clients who use the app.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -39,6 +42,8 @@ export default function ForShopOwners() {
               the app's features and see the value it brings to your business.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -52,6 +57,8 @@ export default function ForShopOwners() {
               are instantly alerted whenever a new booking is made.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -68,6 +75,8 @@ export default function ForShopOwners() {
               your offerings accordingly.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -81,6 +90,8 @@ export default function ForShopOwners() {
               convenient for clients while ensuring timely payments for you.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -94,6 +105,8 @@ export default function ForShopOwners() {
               services, helping you attract more bookings during promotions.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -107,6 +120,8 @@ export default function ForShopOwners() {
               for assistance.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"
@@ -120,6 +135,8 @@ export default function ForShopOwners() {
               book at the location most convenient for them.
             </p>
           </details>
+          
+          
           <details
             className="accordion-item px-4 py-3 md:px-8 bg-[#f2f4f7]"
             name="faq"

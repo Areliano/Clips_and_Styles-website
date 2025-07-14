@@ -11,7 +11,7 @@ export default function OurManifesto() {
     <div className="g-white text-gray-800 px-8 py-12 md:px-20 lg:px-40">
       <div className="max-w-screen-lg mx-auto w-full">
         {/* Title */} 
-        <h2 className="text-4xl font-bold text-center mb-10">Our Manifesto</h2>
+        <h2 className="text-3xl font-bold text-center mb-10">Our Manifesto</h2>
       </div>
       <div className="w-full h-screen flex items-center justify-center bg-white mt-10">
         <div className="w-full h-full max-w-screen-lg max-h-screen bg-white rounded-lg p-6 flex flex-col justify-center">

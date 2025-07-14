@@ -6,11 +6,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+:root{
+  interpolate-size: allow-keywords;
+}
+
+body,p,h1,h2,h3,h4,h5,h6,details,summary {
   font-family: "montserrat", system-ui;  
 }
 
-.logo {
+#logo {
   font-family: "Kavoon", serif;
 }
 
@@ -27,23 +31,44 @@ body {
 details {
   border: 1px solid rgba(213, 213, 213, 0.7);
   margin-bottom: 8px;
+  font-family: monospace;  
   cursor: pointer;
+  overflow:hidden;
+  transition:all 0.3s ease-in-out;
 }
+
 summary {
   list-style: none;
+  /* background: #000; */
 }
 
 summary::after {
   content: "+";
   font-size: 34px;
   margin-left: auto;
-  transition: content 0.3s;
+  transition: all 0.3s ease-in-out;
+  color:gray;
+}
+
+details[open]{
+  background-color: white;
 }
 
 details[open] summary::after {
-  content: "\00D7";
+  /* content: "\00D7"; */
+  rotate: -135deg;
+  color:black;
 }
 
 details[open] summary .icon {
   content: "\00D7";
+}
+details::details-content{
+  block-size:0;
+  transition: all 0.4s ease-out;
+  transition-behavior: allow-discrete;
+}
+
+details[open]::details-content{
+  block-size:auto;
 }
