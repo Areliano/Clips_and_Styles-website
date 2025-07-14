@@ -20,6 +20,7 @@ export default function Waitlist() {
               placeholder="Full Name"
               name="User's-Full-Name"
               className="w-full h-full outline-none focus:outline-none border-none rounded-md"
+              autoFocus='true'
             />
           </fieldset>
 

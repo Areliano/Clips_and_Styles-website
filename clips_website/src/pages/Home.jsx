@@ -9,7 +9,7 @@ export default function Home() {
 
         <Carousel />
 
-        <h2 className="text-2xl md:text-3xl font-bold text-pretty">
+        <h2 className="text-2xl md:text-3xl font-semibold text-balance">
           Effortless Beauty , on your own terms !
         </h2>
 

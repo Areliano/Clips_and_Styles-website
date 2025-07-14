@@ -20,18 +20,18 @@ const Carousel = () => {
         <img
           src={heroImage1}
           alt="clips&styles-waitlist-hero-image-1"
-          className="min-w-20 min-h-32 rounded-xl bg-neutral-300 object-cover object-center"
+          className="w-[15rem] h-[9rem] min-w-20 min-h-32 rounded-xl bg-neutral-300 object-cover object-center"
         />
         <img
           src={heroImage2}
           alt="clips&styles-waitlist-hero-image-1"
-          className="min-w-24 min-h-44 rounded-xl bg-neutral-300 object-cover object-center"
+          className="w-[17rem] h-[13rem] min-w-24 h-44 rounded-xl bg-neutral-300 object-cover object-center"
         />
         <img
           src={heroImage3}
           alt="clips&styles-waitlist-hero-image-1"
-          className="min-w-20 min-h-32  rounded-xl bg-neutral-300 object-cover object-center"
-        /> 
+          className="w-[15rem] h-[9rem] min-w-20 min-h-32  rounded-xl bg-neutral-300 object-cover object-center"
+        />
       </section>
     </div>
   );
